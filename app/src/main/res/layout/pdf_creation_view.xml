@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/saf_print_two"
+        />
+
+     <Space
+         android:layout_width="match_parent"
+         android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agent:"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MILELE POINT"
+            app:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop:"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:text="TOY SHOP"
+            android:id="@+id/shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serial NO:"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:text="23123232322378"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018-10-18 11:38:07"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView android:textColor="#000000"
+        android:text="*****************************************"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PIN CODE:"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="2312 3232 3223 7879"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <TextView android:textColor="#000000"
+        android:text="*****************************************"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KES:"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Operator"
+            app:fontFamily="sans-serif-medium" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView android:textColor="#000000"
+            android:text="safaricom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-medium"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The quickest way to Top up:\nkey in *144* followed by the 16\ndigit pin number and #"
+        app:fontFamily="sans-serif-medium" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POWERED By MILELE POINT"
+            app:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+
+</LinearLayout>
